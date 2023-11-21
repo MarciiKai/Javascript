@@ -71,4 +71,13 @@ let HashTable = function(){
     }
 }
 
-console.log(hash('kai', 10));
+console.log(hash('kai', 9));
+
+let ht = new HashTable();
+ht.add('john', 'person');
+ht.add('bosco', 'dog');
+ht.add('ducky', 'duck');
+ht.add('doe', 'wolf');
+console.log(ht.lookup('tux'))
+ht.print();
+
